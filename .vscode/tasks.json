@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run myapp",
+			"type": "shell",
+			"command": "go run ./cmd/myapp"
+		},
+		{
+			"label": "Build myapp",
+			"type": "shell",
+			"command": "go build -o bin/myapp ./cmd/myapp"
+		}
+	]
+}
